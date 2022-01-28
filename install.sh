@@ -19,4 +19,8 @@ do
     wait
     hackrf_spiflash -w portapack-h1_h2-mayhem.bin
     wait
+  elif [ "$a" = n ]
+  then
+    echo "If you didn't plug it in while holding down the DFU
+  else
     
