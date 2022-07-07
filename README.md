@@ -6,3 +6,5 @@ In order to run this you'll need a gnu/linux computer, hackrf sdr, and a porta p
 
 ## How to
 
+Make sure that your computer is connected to the internet
+
