@@ -1,8 +1,6 @@
 #!/bin/bash
 
-while true 
-do
-  echo "installing needed software"
+echo "installing needed software"
   echo "be ready to put in your creds"
 
   sudo apt install dfu-util hackrf -y
@@ -22,5 +20,5 @@ do
   elif [ "$a" = n ]
   then
     echo "If you didn't plug it in while holding down the DFU
-  else
+    exit 1
     
